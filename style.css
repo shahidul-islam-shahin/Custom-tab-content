@@ -1,0 +1,25 @@
+* {
+    font-size: 18px;
+    line-height: 2;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+button.nav-link {
+    color: #666;
+}
+.nav-pills {
+    position: relative;
+}
+
+.nav-pills::after {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 1px;
+    background-color: #666;
+    content: "";
+}
